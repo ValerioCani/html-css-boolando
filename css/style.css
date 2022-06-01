@@ -12,26 +12,42 @@ body{
     display:flex;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 .fffont{
     color: #fff;
 }
 
-/* regole header dx */
+/* regole header */
 
 header{
     height: 70px;
     background-color: #FF6900;
+    box-shadow: 0 0 5px 0 #000;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav{
     width: calc(100% / 3);
 }
 
+/* regole header dx */
+
 nav ul{
     list-style: none;
     height: 100%;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 header ul a{
@@ -54,3 +70,59 @@ header a img{
 .logo a{
     align-items: center;
 }
+
+/* regole header sx */
+
+.user{
+    justify-content: center;
+    align-items: center;
+}
+
+.user a{
+    padding: 5px;
+}
+
+/* regole main */
+
+main{
+    margin-top: 120px;
+}
+
+.container{
+    max-width: 75%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card{
+    height: 700px;
+    width: 450px;
+    margin-bottom: 40px;
+    border: solid 2px #000;
+}
+
+/* regole foto con hover */
+
+.card img{
+    width: 100%;
+}
+
+.img1{
+    display: block;
+}
+
+section:hover .img1{
+    display: none;
+}
+
+.img2{
+    display: none;
+}
+
+section:hover .img2{
+    display: block;
+}
+
+/* regole elementi interni alla foto */
