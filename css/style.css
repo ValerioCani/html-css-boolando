@@ -100,7 +100,10 @@ main{
     height: 700px;
     width: 450px;
     margin-bottom: 40px;
-    border: solid 2px #000;
+}
+
+.card section{
+    height:650px;
 }
 
 /* regole foto con hover */
@@ -126,3 +129,53 @@ section:hover .img2{
 }
 
 /* regole elementi interni alla foto */
+
+.mi-piace{
+    z-index: 9;
+    font-size: 40px;
+    padding: 2px 15px;
+    background-color: #fff;
+    top: 10px;
+    right: 0;
+}
+
+.mi-piace:hover {
+    color:#FF6900;
+}
+
+.tags{
+ bottom: 40px;
+}
+
+/* regole infobox prodotti */
+
+.sconto{
+    color: #fff;
+    font-weight: 700;
+    background-color: red;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.green{
+    color:#fff;
+    font-weight: 700;
+    background-color: green;
+    padding: 5px 10px;
+}
+
+.nome{
+    font-weight: 700;
+}
+
+.prezzo{
+    color: red;
+    font-weight: 700;
+}
+
+.prezzo span{
+    color: #000;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
