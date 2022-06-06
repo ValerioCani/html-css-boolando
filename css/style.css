@@ -102,14 +102,10 @@ main .container{
 }
 
 .card{
-    height: 700px;
     width: 450px;
     margin-bottom: 40px;
 }
 
-.card section{
-    height:650px;
-}
 
 /* regole foto con hover */
 
